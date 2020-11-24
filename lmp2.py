@@ -7,8 +7,8 @@ from io import StringIO
 def main():
     st.title("LMP Summary")
 
-    os.chdir("https://github.com/ameya1693/lmpsummary/tree/master/LMP")
-    path = "https://github.com/ameya1693/lmpsummary/tree/master/LMP"
+    os.chdir("https://github.com/ameya1693/lmpsummary/LMP")
+    path = "https://github.com/ameya1693/lmpsummary/LMP"
     files = os.listdir(path)
     AllNames = pd.DataFrame()
 
